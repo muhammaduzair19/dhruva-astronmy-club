@@ -16,7 +16,7 @@ const Footer = () => {
                 <span className="w-full flex justify-between">
                     <span className="flex items-center gap-3">
                         <TbMessageCircleCheck />
-                        Let's chat
+                        Let&apos;s chat
                     </span>
                     <span className="flex items-center gap-3">
                         <MdOutlineMarkEmailRead />

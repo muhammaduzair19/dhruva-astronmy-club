@@ -11,7 +11,7 @@ const Page = () => {
         <div className="w-full h-full px-3 sm:px-10 md:px-16 lg:px-20 z-40">
             <section className="text-white w-full h-screen flex flex-col relative py-20" >
                 <div className="flex flex-col justify-normal space-y-2 mt-20">
-                    <h1 className="uppercase text-4xl sm:text-5xl md:text-7xl font-bold">Let's travel to the edge <br /> of space</h1>
+                    <h1 className="uppercase text-4xl sm:text-5xl md:text-7xl font-bold">Let&apos;s travel to the edge <br /> of space</h1>
                     <p className="text-sm md:text-xl">We are a group that love to explore and learn new information related to our universe. <br /> Join us and Explore</p>
                     <button className="w-fit px-6 py-1 bg-transparent border-2 border-white uppercase">Discover More</button>
                 </div>

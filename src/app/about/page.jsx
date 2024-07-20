@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { leaders } from "../utils/data"
+import Post from "../components/post"
 
 const About = () => {
     return (
@@ -7,14 +8,14 @@ const About = () => {
             <section className="w-full h-screen py-10 flex flex-col justify-evenly gap-10 px-6 sm:px-10 md:px-16 lg:px-20">
                 <h1 className="text-center z-40 text-4xl md:text-6xl md:text-left xl:text-8xl font-extrabold uppercase ">about us.</h1>
                 <div className="flex items-center justify-between gap-2 space-x-2 md:space-x-5 flex-col-reverse md:flex-row">
-                    <Image src={'/Images/icon.svg'} width={500} className="w-1/2 absolute opacity-40 md:relative md:opacity-100" height={200} />
+                    <Image src={'/Images/icon.svg'} width={500} className="w-1/2 absolute opacity-40 md:relative md:opacity-100" height={200} alt="Logo Icon"  />
                     <p className="text-xs sm:text-sm lg:text-lg">
                         Lorem ipsum dolor sit amet consectetur. Diam donec egestas est leo malesuada massa quisque vitae at. Aliquet scelerisque magna nulla aenean euismod sed. Adipiscing placerat quisque eu rhoncus consequat.Lorem ipsum dolor sit amet consectetur. Diam donec egestas est leo malesuada massa quisque vitae at. Aliquet scelerisque magna nulla aenean euismod sed. Adipiscing placerat quisque eu rhoncus consequat.Lorem ipsum dolor sit amet consectetur. Diam donec egestas est leo malesuada massa quisque vitae at. Aliquet scelerisque magna nulla aenean euismod sed. Adipiscing placerat quisque eu rhoncus consequat.Lorem ipsum dolor sit amet consectetur. Diam donec egestas est leo malesuada massa quisque vitae at. Aliquet scelerisque magna nulla aenean euismod sed. Adipiscing placerat quisque eu rhoncus consequat.Lorem ipsum dolor sit amet consectetur. Diam donec egestas est leo malesuada massa quisque vitae at. Aliquet scelerisque magna nulla aenean euismod sed. Adipiscing placerat quisque eu rhoncus consequat.
                     </p>
                 </div>
             </section>
             <section className="w-full px-0 md:px-16 lg:px-20  my-5">
-                <Image className="w-full" src={'/Images/employees.png'} width={600} height={600} />
+                <Image className="w-full" src={'/Images/employees.png'} width={600} height={600}  alt="All employees" />
             </section>
 
             <section className="w-full flex flex-col min-h-screen px-3 md:px-16 lg:px-20 py-10 gap-10 items-center">
@@ -32,13 +33,3 @@ const About = () => {
 
 export default About
 
-
-const Post = ({ name, post, avatar }) => (
-    <div className="w-48 sm:w-52  flex flex-col items-center">
-        <Image className="w-36 h-36 object-fit" src={avatar} width={200} height={200} alt="leader pic" />
-        <span className="flex flex-col items-center">
-            <p className="text-xl font-bold" > {name}</p>
-            <p className="text-xl font-bold" > {post}</p>
-        </span>
-    </div>
-)
