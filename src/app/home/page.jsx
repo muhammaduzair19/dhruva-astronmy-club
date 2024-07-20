@@ -15,9 +15,9 @@ const Page = () => {
                     <p className="text-sm md:text-xl">We are a group that love to explore and learn new information related to our universe. <br /> Join us and Explore</p>
                     <button className="w-fit px-6 py-1 bg-transparent border-2 border-white uppercase">Discover More</button>
                 </div>
-                <div className="absolute -bottom-28 md:-bottom-36 right-1">
-                    <Image width={400} height={400} src={'/Images/Moon.png'} alt="Moon Image" />
-                </div>
+                {/* <div className=""> */}
+                    <Image width={300} height={400} src={'/Images/moon1.png'} alt="Moon Image" className="w-56 spin mt-10 self-center md:w-60 xl:w-72 md:absolute md:-bottom-20 md:self-auto md:right-2 "/>
+                {/* </div> */}
             </section>
 
             <section className="w-full h-screen text-white  py-10 flex flex-col space-y-4">

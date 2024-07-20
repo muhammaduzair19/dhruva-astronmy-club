@@ -6,4 +6,25 @@
     .paused {
         animation-play-state: paused;
     }
+
+    .glass {
+        background: linear-gradient(200deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: (10px);
+
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .spin {
+        animation: spin 12s linear infinite;
+    }
 }

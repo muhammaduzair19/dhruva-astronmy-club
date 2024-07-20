@@ -7,7 +7,7 @@ const Podcasts = () => {
             <section className="w-full min-h-screen py-10 gap-5 flex flex-col">
                 <div className="w-full flex items-center gap-3 justify-between">
                     <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-extrabold uppercase">P</h1>
-                    <Image src={'/Images/moon1.png'} className="w-14 sm:w-16 md:w-24 lg:w-28 xl:w-36" width={200} height={200} alt="moon" />
+                    <Image src={'/Images/moon1.png'} className="w-14 sm:w-16 md:w-24 lg:w-28 xl:w-36 spin" width={200} height={200} alt="moon" />
                     <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-extrabold uppercase">c</h1>
                     <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-extrabold uppercase">a</h1>
                     <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-extrabold uppercase">s</h1>

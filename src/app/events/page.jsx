@@ -13,7 +13,7 @@ const Event = () => {
 
 
             <section className="w-full min-h-screen relative py-5 sm:py-10 md:py-15 lg:py-20 flex  justify-center flex-col-reverse lg:flex-col gap-6">
-                <Image width={400} height={400} src={'/Images/moon1.png'} className=' lg:absolute self-center -top-10 z-30 -left-10' alt="Moon Image" />
+                <Image width={400} height={400} src={'/Images/moon1.png'} className='spin w-60 md:w-72 lg:w-80 lg:absolute self-center -top-10 z-30 -left-10' alt="Moon Image" />
 
 
                 <h1 className="text-2xl lg:text-4xl font-bold text-center top-0 absolute self-center">RECENT EVENTS</h1>
