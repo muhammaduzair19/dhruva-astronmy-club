@@ -30,9 +30,9 @@ const Podcasts = () => {
             <section className="w-full min-h-screen flex flex-col gap-20 py-20 items-center ">
                 <div className="w-full flex justify-between items-center flex-col gap-4 md:flex-row">
                     <h1 className="w-full md:w-1/2 text-5xl md:text-6xl lg:text-8xl font-extrabold uppercase">Podcast of the week</h1>
-                    <span className="w-full md:w-1/2 flex flex-col items-start">
+                    <span className="w-full md:w-1/2 flex flex-col items-start gap-2">
                         <p className="text-sm lg:text-lg">Lorem ipsum dolor sit amet consectetur. Diam donec egestas est leo malesuada massa quisque vitae at. Aliquet scelerisque magna nulla aenean euismod sed. Adipiscing placerat quisque eu rhoncus consequat.</p>
-                        <button className="border-2 rounded-md px-6 py-1 mt-3 hover:bg-white hover:text-black duration-700 delay-300 ease-in-out">Learn more</button>
+                        <button className="border-2 px-6 py-1 mt-3 hover:bg-white hover:text-black duration-700 delay-300 ease-in-out">Learn more</button>
                     </span>
                 </div>
                 <div className="w-full  grid grid-cols-1 md:grid-cols-2 gap-5">
